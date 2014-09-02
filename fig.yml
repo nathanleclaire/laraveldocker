@@ -1,0 +1,18 @@
+web:
+    build: web
+    links:
+     - db
+     - redis
+     - beanstalkd
+    ports:
+     - "8000:80"
+db:
+    image: mysql
+    volumes:
+     - /var/lib/mysql
+    environment:
+     - "MYSQL_ROOT_PASSWORD=password"
+redis:
+    image: redis
+beanstalkd:
+    build: beanstalkd
