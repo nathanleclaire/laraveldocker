@@ -11,4 +11,6 @@ List of stuff deployed to dev and production, running the same in both environme
 <li>Beanstalk for background jobs</li>
 <li>Redis for performant data storage</li>
 </ul>
+
+trivial
 @stop
