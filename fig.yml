@@ -4,14 +4,18 @@ web:
      - db
      - redis
      - beanstalkd
+    environment:
+        DEV: yes
+    volumes:
+     - /Users/laraveldocker/web/laravel:/laravel
     ports:
      - "8000:80"
 db:
     image: mysql
+    environment:
+        MYSQL_ROOT_PASSWORD: password
     volumes:
      - /var/lib/mysql
-    environment:
-     - "MYSQL_ROOT_PASSWORD=password"
 redis:
     image: redis
 beanstalkd:

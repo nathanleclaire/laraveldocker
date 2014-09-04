@@ -1,6 +1,10 @@
 @extends('layouts.default')
-<div class="container">
-	<div class="row">
-	   <p>I'm home y'all</p>
-	</div>
+
+@section('content')
+<div class="row">
+   <h1>Welcome to the Lightning Fast homepage!</h1>
 </div>
+<div class="row">
+   <a href="/users">Click here to see the users.</a>
+</div>
+@stop

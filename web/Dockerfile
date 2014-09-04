@@ -24,6 +24,9 @@ run ln -s /etc/nginx/sites-available/laravel /etc/nginx/sites-enabled/laravel
 run echo "daemon off;" >>/etc/nginx/nginx.conf
 
 add laravel /laravel
+workdir /laravel
+#run composer config -g github-oauth.github.com 987fa15827d4f975df7aca523e9c16b9d356eab8
+#run hhvm -v ResourceLimit.SocketDefaultTimeout=200 -v Http.SlowQueryThreshold=60000 /usr/local/bin/composer install
 
 expose 80
 

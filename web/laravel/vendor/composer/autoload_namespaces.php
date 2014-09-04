@@ -37,4 +37,6 @@ return array(
     'ClassPreloader' => array($vendorDir . '/classpreloader/classpreloader/src'),
     'Carbon' => array($vendorDir . '/nesbot/carbon/src'),
     'Boris' => array($vendorDir . '/d11wtq/boris/lib'),
+    'AdamWathan\\Form' => array($vendorDir . '/adamwathan/form/src'),
+    'AdamWathan\\BootForms' => array($vendorDir . '/adamwathan/bootforms/src'),
 );

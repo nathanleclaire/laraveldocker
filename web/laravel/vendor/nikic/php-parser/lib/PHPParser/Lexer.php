@@ -36,7 +36,7 @@ class PHPParser_Lexer
         $this->tokens = @token_get_all($code);
         $this->handleErrors();
 
-        ini_set('xdebug.scream', $scream);
+        ini_set('xdebug.scream', 0);
 
         $this->code = $code; // keep the code around for __halt_compiler() handling
         $this->pos  = -1;

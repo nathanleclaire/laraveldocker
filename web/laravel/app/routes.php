@@ -15,10 +15,16 @@ Route::get('/', function()
 {
 	return View::make('pages.home');
 });
-Route::get('/about', function() 
+
+Route::get('about', function() 
 {
 	return View::make('pages.about');
 });
-Route::get('/contact', function() {
+
+Route::get('contact', function() {
     return View::make('pages.contact');
 });
+
+Route::post('users/{id}/delete', 'UserController@delete');
+Route::post('users/{id}/save', 'UserController@save');
+Route::resource('users', 'UserController');

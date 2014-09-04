@@ -1,5 +1,6 @@
 server {
     listen 80 default_server;
+    sendfile off;
 
     root /laravel/public;
     index index.html index.htm index.php;

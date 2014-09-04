@@ -1,18 +1,7 @@
 @extends('layouts.default')
-<!-- About Section -->
-<section class="success" id="about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>About</h2>
-                <hr class="star-light">
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Contact Section -->
-<section id="contact">
+@section('content')
+<section>
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -64,3 +53,4 @@
         </div>
     </div>
 </section>
+@stop

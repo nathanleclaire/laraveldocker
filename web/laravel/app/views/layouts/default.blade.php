@@ -6,7 +6,11 @@
 <body>
 <div class="container">
 	@include('includes.navbar')
-	@yield('content')
+
+    <div class="begin-section container">
+        @yield('content')
+    </div>
+
 	@include('includes.footer')
 </div>
 </body>

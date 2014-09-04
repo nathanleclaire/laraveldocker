@@ -1675,5 +1675,142 @@
             "framework",
             "laravel"
         ]
+    },
+    {
+        "name": "adamwathan/form",
+        "version": "v0.2",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/adamwathan/form.git",
+            "reference": "fe0d8cf3bfc1deeb3bb4763434c29bdfb0ddd65f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/adamwathan/form/zipball/fe0d8cf3bfc1deeb3bb4763434c29bdfb0ddd65f",
+            "reference": "fe0d8cf3bfc1deeb3bb4763434c29bdfb0ddd65f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "dev-master@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-03-21 20:55:46",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "AdamWathan\\Form": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Adam Wathan",
+                "email": "a.wathan@vehikl.com"
+            }
+        ],
+        "description": "A basic framework agnostic form building package with a few extra niceties like remembering old input and retrieving error messages."
+    },
+    {
+        "name": "adamwathan/bootforms",
+        "version": "v0.2",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/adamwathan/bootforms.git",
+            "reference": "15d338e6343fe7a69d6a516c30ab71451d6bbce0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/adamwathan/bootforms/zipball/15d338e6343fe7a69d6a516c30ab71451d6bbce0",
+            "reference": "15d338e6343fe7a69d6a516c30ab71451d6bbce0",
+            "shasum": ""
+        },
+        "require": {
+            "adamwathan/form": "v0.2",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "dev-master@dev",
+            "phpunit/phpunit": "3.7.*"
+        },
+        "time": "2014-03-24 17:35:39",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "AdamWathan\\BootForms": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Adam Wathan",
+                "email": "a.wathan@vehikl.com"
+            }
+        ],
+        "description": "Just a Formbuilder with some Bootstrap specific conveniences. Remembers old input, retrieves error messages and handles all your boilerplate Bootstrap markup automatically."
+    },
+    {
+        "name": "pda/pheanstalk",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/pda/pheanstalk.git",
+            "reference": "221de9e8ce2b5065e1e8682f9d26a3e51de6d4e5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/pda/pheanstalk/zipball/221de9e8ce2b5065e1e8682f9d26a3e51de6d4e5",
+            "reference": "221de9e8ce2b5065e1e8682f9d26a3e51de6d4e5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2014-08-15 00:55:44",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Pheanstalk\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Paul Annesley",
+                "email": "paul@annesley.cc",
+                "homepage": "http://paul.annesley.cc/",
+                "role": "Developer"
+            }
+        ],
+        "description": "PHP client for beanstalkd queue",
+        "homepage": "https://github.com/pda/pheanstalk",
+        "keywords": [
+            "beanstalkd"
+        ]
     }
 ]
