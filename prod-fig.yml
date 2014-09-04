@@ -6,6 +6,8 @@ web:
      - beanstalkd
     ports:
      - "80:80"
+    volumes:
+     - /var/lib/lightning/mysql:/var/lib/lightning/mysql
 db:
     image: mysql
     environment:
