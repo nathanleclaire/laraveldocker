@@ -21,12 +21,12 @@
         <td> {{ $user->email }}</td>
         <td>
             <form action="{{ URL::to('users/' . $user->id . '/edit') }}" method="GET">
-                <button type="submit" class="btn btn-primary pull-right edit-button">
+                <button type="submit" class="btn btn-primary pull-left edit-button">
                     <i class="fa fa-edit"></i> Edit User
                 </button>
             </form>
             <form action="{{ URL::to('users/' . $user->id . '/delete') }}" method="POST">
-                <button type="submit" class="btn btn-danger pull-right">
+                <button type="submit" class="btn btn-danger pull-left">
                     <i class="fa fa-trash"></i> Delete User
                 </button>
             </form>
