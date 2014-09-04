@@ -1,6 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
+    <h1>Users Summary</h1>
     <form action="{{ URL::to('users/create') }}" method="GET">
         <button type="submit" class="btn btn-success pull-right">
            <i class="fa fa-plus"></i> Create User
