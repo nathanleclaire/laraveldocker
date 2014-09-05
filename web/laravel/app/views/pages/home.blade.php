@@ -7,5 +7,4 @@
 <div class="row">
    <a href="/users">Click here to see the users.</a>
 </div>
-<p>test test test</p>
 @stop
