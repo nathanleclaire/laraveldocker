@@ -6,8 +6,6 @@ web:
      - beanstalkd
     environment:
         DEV: yes
-    volumes:
-     - /Users/laraveldocker/web/laravel:/laravel
     ports:
      - "8000:80"
 db:
