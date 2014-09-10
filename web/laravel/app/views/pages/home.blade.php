@@ -6,6 +6,6 @@
 </div>
 <div class="row">
    <a href="/users">Click here to see the users.</a>
-   <p> Hello there! </p>
+    <p>hello classmates</p>
 </div>
 @stop
