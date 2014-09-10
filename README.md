@@ -26,6 +26,7 @@ To set up:
 ```
 $ cd
 $ mkdir laraveldocker
+$ mkdir laraveldocker_deploy
 $ cd laraveldocker
 $ git init --bare
 $ wget https://raw.githubusercontent.com/nathanleclaire/laraveldocker/master/hooks/post-receive -O hooks/post-receive
