@@ -8,13 +8,19 @@ web:
         DEV: yes
     ports:
      - "8000:80"
+    volumes:
+     - ./web/laravel:/laravel
+    restart: always
 db:
     image: mysql
     environment:
         MYSQL_ROOT_PASSWORD: password
     volumes:
      - /var/lib/mysql
+    restart: always
 redis:
     image: redis
+    restart: always
 beanstalkd:
     build: beanstalkd
+    restart: always
